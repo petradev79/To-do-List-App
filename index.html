@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="app-title">To-do List</h1>
+      <p class="app-description">
+        Type To-do item in the input field and press Enter or click on the Add Item button to make a List.
+      </p>
+
+      <form class="js-form">
+        <input
+          autofocus
+          type="text"
+          aria-label="Add to-do item"
+          placeholder="Add to-do item"
+          class="js-todo-input"
+        />
+        <button type="submit" class="btn">Add Item</button>
+      </form>
+      <div class="todo-list js-todo-list"></div>
+
+    </div>
+  </body>
+</html>
